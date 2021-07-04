@@ -1,0 +1,42 @@
+{
+  "name": "sidious-party-theme-pack",
+  "displayName": "Sidious Party Theme Pack",
+  "description": "Vic Sidious's Official VS Code theme pack.",
+  "version": "7.1.0",
+  "publisher": "sidiousvic",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "engines": {
+    "vscode": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidiousvic/sidious-vscode-theme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark",
+    "Hacker",
+    "Red",
+    "Cool",
+    "Green",
+    "Sidious"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "icon": "sidious-party-logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "DARKLORD",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARKLORD-color-theme.json"
+      },
+      {
+        "label": "PHANTOM",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PHANTOM-color-theme.json"
+      }
+    ]
+  }
+}
